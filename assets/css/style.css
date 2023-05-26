@@ -1,0 +1,36 @@
+
+.mytabHeading{
+  background-color: aquamarine;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+  
+}
+
+.mytabHeading li{
+    text-align: center;
+    width: 25%;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.tabContent{
+    display: none;
+}
+
+.tabContent.active{
+    display: block;
+} 
+
+/* add para */
+
+
+.mytabHeading li.active{
+    background-color: brown;
+}
